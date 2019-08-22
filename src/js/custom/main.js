@@ -1,1 +1,3 @@
-console.log("Test !!!");
+new Vue({
+    el: '#app'
+})
