@@ -5,12 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./dist/css/style.min.css">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet. Test</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ipsam beatae, consequuntur facere ex tenetur vel deleniti quibusdam? Quia, omnis?</p>
-
+    <div class="container">
+      <div class="row">
+          <div id="app" v-cloak>
+            <edu-counter></edu-counter>
+            <edu-counter></edu-counter>
+           </div>
+      </div>
+        <div class="row">
+                <div class="col-sm">
+                        One of three columns
+                      </div>
+                      <div class="col-sm">
+                        One of three columns
+                      </div>
+                      <div class="col-sm">
+                        One of three columns
+                      </div>
+        </div>
+    </div>
+   <div class="test">
+       <p>Test</p>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./dist/js/vendor.min.js"></script>
     <script src="./dist/js/custom.min.js"></script>
 </body>
